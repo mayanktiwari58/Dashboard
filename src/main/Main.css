@@ -1,0 +1,302 @@
+main{
+    background: #f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+}
+
+.main_container{
+   
+
+}
+#course{
+   
+    
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around ;
+}
+#course1{
+    color: white;
+    border-radius: 10px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around ;
+}
+#course2{
+    color: white;
+    background-color: skyblue;
+    padding: 5px;
+    
+    height: 30px;
+    border-radius: 10px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-around ;
+}
+#course3{
+    
+    height: 90px;
+    border-radius: 10px;
+   
+  
+}
+
+
+.main_title{
+    display: flex;
+    align-items: center;
+
+}
+
+.main_title>img{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+#earning{
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#withdraw{
+    color: white;
+    font-weight: 700;
+    padding: 2px;
+   margin-left: 55px;
+   margin-top: 5px;
+   border-radius: 5px;
+   width: 90px;
+   background-color: cornflowerblue;
+}
+#withdraw1{
+   
+    color: white;
+    font-weight: 700;
+    padding: 40px;
+   margin-left: -15px;
+   margin-top: 15px;
+   border-radius: 5px;
+   width: 190px;
+   gap: 30px;
+   background-color: cornflowerblue;
+}
+#session{
+    background-color: skyblue;
+}
+#students{
+    margin-left: 50px;
+}
+#students1{
+    margin-left: 50px;
+}
+.main_greeting>h1>{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.main_greeting>p{
+    font-size: 25px;
+    font-weight: 700px;
+    color: white;
+}
+
+.main_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin:20px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+   
+    padding: 15px;
+    border-radius: 25px;
+    background: rgb(230, 233, 235);
+    box-shadow: 5px 5px 13px white, -5px -5px -13px white;
+}
+
+.card5{
+    margin-left: -20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 280px;
+    width: 70px;
+    padding: 35px;
+    border-radius: 25px;
+    background: rgb(230, 233, 235);
+    box-shadow: 5px 5px 13px white, -5px -5px -13px white;
+}
+#french{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 580px;
+   
+    padding: 15px;
+    border-radius: 25px;
+    background: rgb(230, 233, 235);
+    box-shadow: 5px 5px 13px white, -5px -5px -13px white;
+}
+.card_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+   
+    padding: 15px;
+    border-radius: 25px;
+    background: skyblue;
+    box-shadow: 5px 5px 13px white, -5px -5px -13px white;
+}
+#welcome{
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 10px;
+    gap: 10px;
+}
+#welcome1{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    gap: 10px;
+}
+.card_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 680px;
+   
+    padding: 15px;
+    border-radius: 25px;
+    background: skyblue;
+    box-shadow: 5px 5px 13px white, -5px -5px -13px white;
+}
+.card1_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1_inner>span{
+    font-size: 15px; 
+}
+
+
+
+
+.card_inner>span{
+    font-size: 15px;
+}
+
+.charts{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 70px;
+    margin-bottom: 50px;
+   
+}
+#button-1{
+    display: flex;
+   padding: 15px;
+    border-radius: 20px;
+   
+
+}
+#btn1{
+    margin-left: 60px;
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+}
+#btn2{
+    margin-left: 90px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(105, 141, 141);
+}
+#btn3{
+    margin-left: 90px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: rgb(105, 141, 141);
+}
+#btn4{
+    margin-left: 90px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+
+}
+
+.charts_left{
+    height: 450px;
+    width: 100px;
+    padding :95px;
+    border-radius: 5px;
+    background: white;
+    box-shadow:5px 5px 13px white, -5px -5px -13px white; ;
+
+}
+.charts_right1{
+    margin-right: 100px;
+    padding :25px;
+    border-radius: 5px;
+    background: white;
+    box-shadow:5px 5px 13px white, -5px -5px -13px white; ;
+
+}
+
+.charts_left_title{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.charts_left_title>div>h1{
+    font-size:24px ;
+    color: white;
+    margin-bottom: 5px;
+
+}
+.charts_left_title > div > p{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.charts_left_title > i{
+    color: black;
+    font-size: 20px;
+    background: blue;
+    border-radius: 200px 0 200px 200px;
+    border: 0px solid black;
+    padding: 15px;
+}
+
+.charts_right_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    margin-top: 30px;
+
+}
